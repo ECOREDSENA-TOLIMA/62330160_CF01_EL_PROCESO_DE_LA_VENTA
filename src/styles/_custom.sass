@@ -1,18 +1,135 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 70%
 
 
-@keyframes float1
+@keyframes float2
   0%
-    transform: translateY(20px)
+    transform: scale(1,1)
+  0%
+    transform: scale(0.8,0.8)
   100%
-    transform: translateY(0px)
+    transform: scale(1,1)
+
+
+li 
+  i.fas.fa-check, i.fas.fa-certificate, i.fas.fa-folder
+    color: #60A19F
+    
+ul.lista-ul--color li, ul.lista-ul.ul-color-a li, ul.lista-ul li, ol.lista-ol--cuadro li
+  display: flex
+  
+.lista-title
+  background-color: #D2EDEC
+  width: max-content
+  border-radius: 0.8rem
+
+.fondo-1 
+  background: linear-gradient(to bottom, #FFF -10%, #FFFBF3 80%, #FFF 100%)
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+    
+.fondo-2
+  background-image: url('../assets/curso/temas/fondo-2.svg')
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  background-repeat: no-repeat
+  background-size: 100%
+
+.fondo-3
+  background-image: url('../assets/curso/temas/fondo-3.svg')
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.tarjeta.tarjeta--gris-b.acordion__activo
+  background-color: #FEF0D7
+.tarjeta.tarjeta--gris-b
+  background-color:  #E8E4DF
+  
+.tarjeta.color-primario-a1
+  background-color: #FEE7BD
+.tarjeta.color-primario-a2
+  background-color: #B0DFDE
+.tarjeta.color-primario-a3
+  background-color: #FFC278
+
+.tarjeta.color-primario-b
+  background-color: #FEF0D7
+  border-radius: 0
+.tarjeta.color-primario-b2
+  background-color: #FEF0D7
+
+.tarjeta.color-primario-a4
+  background-color: #FFFBF3
+
+.tarjeta.color-morado
+  background-color: #F3F9FF
+
+.img-infografica__card.img-infografica__card--selected
+  width: 350px
+
+.color-acento-contenido-a
+  background-color: #E9D3D3
+
+.cajon.color-primario
+  background-color: #FEF0D7
+  
+.bg-header-table
+  background-color: $color-acento-contenido
+
+.tabs-a__tab
+  background-color: #E8E4DF
+
+.linea-tiempo-e:before
+  left: 15% !important
+.linea-tiempo-e__item__header
+  width: 15%
+.linea-tiempo-e__item__body
+  width: 85%
+
+.tarjeta-white
+  background-color: $white
+
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FFDFB9
+  
+.acordion__accion__btn--b, .slyder__btn, .acordion__accion__btn--a, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: $color-acento-botones
+  border: 1px solid $white
+  i
+    color: $white !important
+
+// .tarjeta.tarjeta--gris-b
+//   background-color: #FEF0D7
+
+  
+.pasos-b__header__item--active
+  .pasos-b__header__item__dot
+    border-color: #851717 !important
+    background-color: #851717 !important
+    span
+      color: $white !important
+.pasos-b__header__item--before
+  .pasos-b__header__item__dot
+    border-color: #FFC278
+    background-color: #FFC278
+    i
+      color: $black !important
+.pasos-b__header__item__dot
+  background-color: #F3F9FF
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+  
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border: 1px solid $white
+  i
+    color: $white !important
