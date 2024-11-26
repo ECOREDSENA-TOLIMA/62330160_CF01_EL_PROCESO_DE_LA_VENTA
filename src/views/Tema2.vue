@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img_1.png', alt='')
 
-    p.mb-4(data-aos="fade-right") Al producto lo definen todas sus características tangibles e intangibles (empaque color precio, etc.), que son observables por el grupo objetivo y que es lo que motiva para su compra, si su beneficio principal o promesa básica marcan la diferencia con respecto a su competencia.
+    p.mb-4(data-aos="fade-right") Al producto lo definen todas sus características tangibles e intangibles (empaque, color, precio, etc.), que son observables por el grupo objetivo y que es lo que motiva para su compra, si su beneficio principal o promesa básica marcan la diferencia con respecto a su competencia.
     p.mb-5(data-aos="fade-right") Como lo es el caso del ejemplo “Industria Panificadora Cholita” (se tratará durante todo este componente formativo), sobre el cual se trabajará con su producto “pan tajado” con sabor a fruta, que a partir de este momento se considera un #[b nuevo] producto dentro de la línea de panadería.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")

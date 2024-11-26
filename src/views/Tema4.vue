@@ -20,7 +20,7 @@
               .tarjeta.color-primario.w-100
                 .p-4
                   h4.text-center Línea de panadería
-                  p Pan tajado tradicional, pan fruticas, croassan, pan sanduchero, pan perro, pan bagueta, pan integral, pan pizza, pan queso.
+                  p Pan tajado tradicional, pan fruticas, #[em croassan], pan sanduchero, pan perro, pan #[em baguette], pan integral, pan pizza, pan queso.
           .col-md-6.col-lg.mb-3.mb-lg-0(data-aos="fade-down")
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema4/sl1-b.svg' alt='AvatarTop')

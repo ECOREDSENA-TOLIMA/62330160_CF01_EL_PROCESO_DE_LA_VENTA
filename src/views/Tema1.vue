@@ -60,7 +60,7 @@
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/slid-3.svg', alt='')
         h4 Imagen corporativa
-        p Está definida por logotipos, elementos gráficos, imágenes, slogans, símbolos, escudos, colores y tipo de letra, entre otros elementos que van plasmados dentro del portafolio y le dan esa personalidad a la compañía y al producto.
+        p Está definida por logotipos, elementos gráficos, imágenes, #[em slogans], símbolos, escudos, colores y tipo de letra, entre otros elementos que van plasmados dentro del portafolio y le dan esa personalidad a la compañía y al producto.
       .col-12.col-lg-4.col-md-6.h-100.mb-md-3.mb-4(data-aos="fade-down")
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/slid-4.svg', alt='')

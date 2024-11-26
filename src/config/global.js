@@ -345,12 +345,12 @@ export default {
         },
         {
           nombre: 'Oscar Daniel Espitia Marín',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

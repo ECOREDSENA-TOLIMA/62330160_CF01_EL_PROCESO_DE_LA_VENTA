@@ -100,33 +100,33 @@
                       i.lista-ul__vineta
                       | Riesgo de que los consumidores asocien los productos de menor calidad a los ya existentes.
               tr
-                th.text-center Ampliar hacia abajo
+                th.text-center Ampliar hacia arriba
                 td 
                   ul.lista-ul.mb-0
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Crecimiento lento en la parte inferior.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Crecimiento alto en la parte superior.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Ataque de la competencia.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | No hay mucha competencia en la parte superior.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Cubrir un hueco y complementar la línea.
                 td 
                   ul.lista-ul.mb-0
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Organizaciones de la parte superior atacan a la compañía.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Ejecutivos de la organización que no estén suficientemente preparados para prestar sus servicios y asesorías en la parte superior.
-                    li.mb-0
+                    li
                       i.lista-ul__vineta
                       | Riesgo de que los consumidores no crean que la organización está preparada para producir productos de calidad superior.
 
